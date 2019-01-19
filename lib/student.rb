@@ -2,14 +2,14 @@ require_relative "./user.rb"
 
 class Student < User
 
-  @KNOWLEDGE = []
+  @knowledge = []
 
   def learn(stuff)
-  @KNOWLEDGE << stuff
+  @knowledge << stuff
   end
 
 def knowledge
-  @KNOWLEDGE
+  @knowledge
 end
 
 end
